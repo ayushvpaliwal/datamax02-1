@@ -32,7 +32,10 @@ const Node = () => {
                 Output Node
             </div>
             <div className="dndnode" onDragStart={(event) => onDragStart(event, "selectorNode1")} draggable>
-                Custom Node
+                Custom Node 1
+            </div>
+            <div className="dndnode" onDragStart={(event) => onDragStart(event, "selectorNode2")} draggable>
+                Custom Node 2
             </div>
         </>
     );
